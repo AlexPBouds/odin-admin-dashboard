@@ -10,17 +10,16 @@ The main purpose of this project is to familiarize myself with using grid layout
 
 ## Assets Used
 
+[Freepik - Flaticon](https://www.flaticon.com/free-icons/user)
+
 - Business Male Profile Icon
-  [Freepik - Flaticon](https://www.flaticon.com/free-icons/user)
+- Hoodie Male Profile Icon
+- Bearded Male Profile Icon
+
+[Prosymbols Premius - Flaticon](https://www.flaticon.com/free-icons/female)
 
 - Female Profile Icon
-  [Prosymbols Premius - Flaticon](https://www.flaticon.com/free-icons/female)
 
-- Hoodie Male Profile Icon
-  [Freepik - Flaticon](https://www.flaticon.com/free-icons/young")
-
-- Bearded Male Profile Icon
-  [Freepik - Flaticon](https://www.flaticon.com/free-icons/user)
+[Material Design Icons - Pictogrammers](https://pictogrammers.com/library/mdi/)
 
 - UI Icons
-  [Material Design Icons - Pictogrammers](https://pictogrammers.com/library/mdi/)
