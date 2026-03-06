@@ -1,3 +1,28 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.logo .icon {
+  width: 40px;
+}
+
+.dashboard .icon {
+  filter: invert(100%);
+  background-color: aqua;
+}
+
+.icon {
+  width: 20px;
+}
+
+.profile-icon {
+  width: 40px;
+}
+
+.flip-image {
+  transform: scaleX(-1);
+}
+
+.rotate-image {
+  transform: rotate(-90deg);
+}
