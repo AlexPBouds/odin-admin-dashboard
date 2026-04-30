@@ -110,18 +110,20 @@
 
       <div class="navbar">
         <div class="top">
-          <img
-            src="./images/icons/magnify.svg"
-            alt="Search Icon"
-            class="icon"
-          />
+          <div class="search-container">
+            <img
+              src="./images/icons/magnify.svg"
+              alt="Search Icon"
+              class="icon search-icon"
+            />
 
-          <input type="text" class="search-bar" />
+            <input type="text" class="search-bar" />
+          </div>
 
           <img
             src="./images/icons/bell-ring-outline.svg"
             alt="Notifications Icon"
-            class="icon"
+            class="icon notification-icon"
           />
 
           <img
@@ -134,276 +136,299 @@
         </div>
 
         <div class="bottom">
-          <img
-            src="./images/profile-images/man.png"
-            alt=""
-            class="profile-icon"
-          />
-
-          <div class="welcome-message">Hi there,</div>
-
-          <div class="full-account-name">Morgan Oakley (@morgan)</div>
-
-          <button class="menu-button">New</button>
-
-          <button class="menu-button">Upload</button>
-
-          <button class="menu-button">Share</button>
-        </div>
-      </div>
-
-      <div class="projects">
-        <div class="title">Your Projects</div>
-
-        <div class="project">
-          <div class="title">Super Cool Project</div>
-
-          <div class="description">
-            Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
-            erat, id facilisis felis accumsan nec.
-          </div>
-
-          <img
-            src="./images/icons/star-plus-outline.svg"
-            alt="Star Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/eye-plus-outline.svg"
-            alt="Eye Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/share-variant-outline.svg"
-            alt="Share Icon"
-            class="icon rotate-image"
-          />
-        </div>
-
-        <div class="project">
-          <div class="title">Less Cool Project</div>
-
-          <div class="description">
-            Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed
-            dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem
-            purus, dignissim ut sapien in, varius pellentesque lactus.
-          </div>
-
-          <img
-            src="./images/icons/star-plus-outline.svg"
-            alt="Star Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/eye-plus-outline.svg"
-            alt="Eye Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/share-variant-outline.svg"
-            alt="Share Icon"
-            class="icon rotate-image"
-          />
-        </div>
-
-        <div class="project">
-          <div class="title">Impossible App</div>
-
-          <div class="description">
-            In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
-            placerat velit sagittis id.
-          </div>
-
-          <img
-            src="./images/icons/star-plus-outline.svg"
-            alt="Star Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/eye-plus-outline.svg"
-            alt="Eye Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/share-variant-outline.svg"
-            alt="Share Icon"
-            class="icon rotate-image"
-          />
-        </div>
-
-        <div class="project">
-          <div class="title">Easy Peasy Project</div>
-
-          <div class="description">
-            Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna
-            eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo,
-            ac bibendum magna tincidunt.
-          </div>
-
-          <img
-            src="./images/icons/star-plus-outline.svg"
-            alt="Star Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/eye-plus-outline.svg"
-            alt="Eye Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/share-variant-outline.svg"
-            alt="Share Icon"
-            class="icon rotate-image"
-          />
-        </div>
-
-        <div class="project">
-          <div class="title">Ad Blocker</div>
-
-          <div class="description">
-            Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
-            pharetra hendrerit felis. Aliquam sed malesuada eros.
-          </div>
-
-          <img
-            src="./images/icons/star-plus-outline.svg"
-            alt="Star Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/eye-plus-outline.svg"
-            alt="Eye Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/share-variant-outline.svg"
-            alt="Share Icon"
-            class="icon rotate-image"
-          />
-        </div>
-
-        <div class="project">
-          <div class="title">Money Maker</div>
-
-          <div class="description">
-            Praesent convallis, livero quis congue elementum, nunc ante faucibus
-            sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis
-            nex sem vel aliquam.
-          </div>
-
-          <img
-            src="./images/icons/star-plus-outline.svg"
-            alt="Star Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/eye-plus-outline.svg"
-            alt="Eye Icon"
-            class="icon"
-          />
-
-          <img
-            src="./images/icons/share-variant-outline.svg"
-            alt="Share Icon"
-            class="icon rotate-image"
-          />
-        </div>
-      </div>
-
-      <div class="announcements">
-        <div class="title">Announcements</div>
-
-        <div class="content">
-          <div class="announcement">
-            <div class="title">Site Maintenance</div>
-
-            <div class="description">
-              Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
-              Donec hendrerit sodales congue...
-            </div>
-          </div>
-
-          <div class="announcement">
-            <div class="title">Community Share Day</div>
-
-            <div class="description">
-              Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
-              dictum accumsan porttitor...
-            </div>
-          </div>
-
-          <div class="announcement">
-            <div class="title">Update Privacy Policy</div>
-
-            <div class="description">
-              Phasellus efficitur nisi eget elit consectetur, eget condimentum
-              ante auctor. Cras fringilla sagittis sem in mattis...
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="trending">
-        <div class="title">Trending</div>
-
-        <div class="content">
-          <div class="account">
-            <img
-              src="./images/profile-images/boy.png"
-              alt=""
-              class="profile-icon"
-            />
-
-            <div class="name-tag">@tegan</div>
-
-            <div class="project-name">World Peace Builder</div>
-          </div>
-
-          <div class="account">
+          <div class="profile-container">
             <img
               src="./images/profile-images/man.png"
               alt=""
               class="profile-icon"
             />
 
-            <div class="name-tag">@morgan</div>
+            <div class="profile-message">
+              <div class="welcome-message">Hi there,</div>
 
-            <div class="project-name">Super Cool Project</div>
+              <div class="full-account-name">Morgan Oakley (@morgan)</div>
+            </div>
           </div>
 
-          <div class="account">
-            <img
-              src="./images/profile-images/profile.png"
-              alt=""
-              class="profile-icon"
-            />
+          <div class="button-container">
+            <button class="menu-button">New</button>
 
-            <div class="name-tag">@kendall</div>
+            <button class="menu-button">Upload</button>
 
-            <div class="project-name">Life Changing App</div>
+            <button class="menu-button">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="projects">
+          <div class="title">Your Projects</div>
+
+          <div class="project">
+            <div class="title">Super Cool Project</div>
+
+            <div class="description">
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
+            </div>
+
+            <div class="icons">
+              <img
+                src="./images/icons/star-plus-outline.svg"
+                alt="Star Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/eye-plus-outline.svg"
+                alt="Eye Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/share-variant-outline.svg"
+                alt="Share Icon"
+                class="icon rotate-image"
+              />
+            </div>
           </div>
 
-          <div class="account">
-            <img
-              src="./images/profile-images/woman.png"
-              alt=""
-              class="profile-icon"
-            />
+          <div class="project">
+            <div class="title">Less Cool Project</div>
 
-            <div class="name-tag">@alex</div>
+            <div class="description">
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis
+              sem purus, dignissim ut sapien in, varius pellentesque lactus.
+            </div>
 
-            <div class="project-name">No Traffic Maker</div>
+            <div class="icons">
+              <img
+                src="./images/icons/star-plus-outline.svg"
+                alt="Star Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/eye-plus-outline.svg"
+                alt="Eye Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/share-variant-outline.svg"
+                alt="Share Icon"
+                class="icon rotate-image"
+              />
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Impossible App</div>
+
+            <div class="description">
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </div>
+
+            <div class="icons">
+              <img
+                src="./images/icons/star-plus-outline.svg"
+                alt="Star Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/eye-plus-outline.svg"
+                alt="Eye Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/share-variant-outline.svg"
+                alt="Share Icon"
+                class="icon rotate-image"
+              />
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Easy Peasy Project</div>
+
+            <div class="description">
+              Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidunt.
+            </div>
+
+            <div class="icons">
+              <img
+                src="./images/icons/star-plus-outline.svg"
+                alt="Star Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/eye-plus-outline.svg"
+                alt="Eye Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/share-variant-outline.svg"
+                alt="Share Icon"
+                class="icon rotate-image"
+              />
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Ad Blocker</div>
+
+            <div class="description">
+              Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
+              pharetra hendrerit felis. Aliquam sed malesuada eros.
+            </div>
+
+            <div class="icons">
+              <img
+                src="./images/icons/star-plus-outline.svg"
+                alt="Star Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/eye-plus-outline.svg"
+                alt="Eye Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/share-variant-outline.svg"
+                alt="Share Icon"
+                class="icon rotate-image"
+              />
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Money Maker</div>
+
+            <div class="description">
+              Praesent convallis, livero quis congue elementum, nunc ante
+              faucibus sapien, ac scelerisque tortor purus sit amet ex.
+              Pellentesque mollis nex sem vel aliquam.
+            </div>
+
+            <div class="icons">
+              <img
+                src="./images/icons/star-plus-outline.svg"
+                alt="Star Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/eye-plus-outline.svg"
+                alt="Eye Icon"
+                class="icon"
+              />
+
+              <img
+                src="./images/icons/share-variant-outline.svg"
+                alt="Share Icon"
+                class="icon rotate-image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="news">
+          <div class="announcements">
+            <div class="title">Announcements</div>
+
+            <div class="announcements-container">
+              <div class="announcement">
+                <div class="title">Site Maintenance</div>
+
+                <div class="description">
+                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                  ac. Donec hendrerit sodales congue...
+                </div>
+              </div>
+
+              <div class="announcement">
+                <div class="title">Community Share Day</div>
+
+                <div class="description">
+                  Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
+                  Aliquam dictum accumsan porttitor...
+                </div>
+              </div>
+
+              <div class="announcement">
+                <div class="title">Update Privacy Policy</div>
+
+                <div class="description">
+                  Phasellus efficitur nisi eget elit consectetur, eget
+                  condimentum ante auctor. Cras fringilla sagittis sem in
+                  mattis...
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="trending">
+            <div class="title">Trending</div>
+
+            <div class="accounts">
+              <div class="account">
+                <img
+                  src="./images/profile-images/boy.png"
+                  alt=""
+                  class="profile-icon"
+                />
+
+                <div class="username">@tegan</div>
+
+                <div class="project-name">World Peace Builder</div>
+              </div>
+
+              <div class="account">
+                <img
+                  src="./images/profile-images/man.png"
+                  alt=""
+                  class="profile-icon"
+                />
+
+                <div class="name-tag">@morgan</div>
+
+                <div class="project-name">Super Cool Project</div>
+              </div>
+
+              <div class="account">
+                <img
+                  src="./images/profile-images/profile.png"
+                  alt=""
+                  class="profile-icon"
+                />
+
+                <div class="name-tag">@kendall</div>
+
+                <div class="project-name">Life Changing App</div>
+              </div>
+
+              <div class="account">
+                <img
+                  src="./images/profile-images/woman.png"
+                  alt=""
+                  class="profile-icon"
+                />
+
+                <div class="name-tag">@alex</div>
+
+                <div class="project-name">No Traffic Maker</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
